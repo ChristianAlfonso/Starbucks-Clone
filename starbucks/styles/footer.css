@@ -1,0 +1,40 @@
+footer {
+    padding: 50px 150px;
+    height: 40vh;
+    
+}
+
+footer .footer-section {
+    display: grid;
+    grid-template-columns: 350px repeat(4,1fr);
+    grid-auto-rows: auto;
+}
+
+footer .footer-logo{
+    position: relative;
+}
+
+
+
+.clone {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #006241;
+    color: white;
+    font-size: 12px;   
+}
+
+@media (max-width: 1049px) {
+    footer {
+        padding: 40px;
+    }
+
+    footer .footer-section {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .clone {
+        font-size: 20px;
+    }
+}

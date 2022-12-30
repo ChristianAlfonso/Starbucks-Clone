@@ -1,0 +1,41 @@
+.hero-container {
+    height: 65vh;
+    background: url(https://starbuckscard.ph/sbcard-admin/storage/app/public/banners/mgmSNcjk33QRYqkiDTorpb2j8Fo9ViEu93L3FBmN.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3vh;
+}
+
+.hero-container .hero-text {
+    height: 65vh;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    width: 70vw;
+    flex-direction: column;
+    margin-left: 15vw;
+    gap: 4vh;
+}
+
+.hero-container .hero-text a {
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 7px 16px;
+    width: 10vw;
+    border-radius: 20px;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+}
+
+@media (max-width: 1049px) {
+    .hero-container {
+        height: 45vh;
+    }
+    
+    .hero-container .hero-text {
+        font-size: 25px;
+    }
+}
